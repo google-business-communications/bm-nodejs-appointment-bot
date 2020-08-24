@@ -1,0 +1,28 @@
+{
+  "name": "bm-nodejs-appointment-bot",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.2.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "dialogflow": "^0.5.0",
+    "dialogflow-fulfillment": "^0.5.0",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "googleapis": "^45.0.0",
+    "http-errors": "~1.6.2",
+    "moment": "^2.27.0",
+    "morgan": "~1.9.0",
+    "request": "^2.88.0",
+    "uuid": "^3.3.3",
+    "businessmessages": "~1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1"
+  }
+}
