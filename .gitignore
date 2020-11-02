@@ -1,3 +1,5 @@
+resources/*.json
+
 # Logs
 logs
 *.log
