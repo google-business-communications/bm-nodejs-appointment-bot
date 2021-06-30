@@ -43,65 +43,6 @@ let intentMap = new Map([
     ['Make Appointment - custom', makeAppointmentFollowUpResponse],
   ]);
 
-router.get('/', function(req, res, next) {
-  let input = {
-  "responseId": "d7c63bd9-0979-48e5-ab28-3c6f0144fab0-425db6e2",
-  "queryResult": {
-    "queryText": "2pm",
-    "parameters": {
-      "date": "2020-07-23T12:00:00-07:00",
-      "time": "2020-07-22T14:00:00-07:00"
-    },
-    "allRequiredParamsPresent": true,
-    "fulfillmentText": "Great! I've set up your appointment! Do you need a repair or just a tune-up?",
-    "fulfillmentMessages": [
-      {
-        "text": {
-          "text": [
-            "Great! I've set up your appointment! Do you need a repair or just a tune-up?"
-          ]
-        }
-      }
-    ],
-    "outputContexts": [
-      {
-        "name": "projects/codelabbikeshop-orig/agent/sessions/a76ac640-3f80-7b38-92b9-8e8ab45c1768/contexts/makeappointment-followup",
-        "lifespanCount": 2,
-        "parameters": {
-          "date": "2020-07-23T12:00:00-07:00",
-          "date.original": "tomorrow",
-          "time": "2020-07-22T14:00:00-07:00",
-          "time.original": "2pm"
-        }
-      },
-      {
-        "name": "projects/codelabbikeshop-orig/agent/sessions/a76ac640-3f80-7b38-92b9-8e8ab45c1768/contexts/__system_counters__",
-        "parameters": {
-          "no-input": 0,
-          "no-match": 0,
-          "date": "2020-07-23T12:00:00-07:00",
-          "date.original": "tomorrow",
-          "time": "2020-07-22T14:00:00-07:00",
-          "time.original": "2pm"
-        }
-      }
-    ],
-    "intent": {
-      "name": "projects/codelabbikeshop-orig/agent/intents/969b9a7a-1749-4885-a9d7-3b98cdb1bdad",
-      "displayName": "Make Appointment"
-    },
-    "intentDetectionConfidence": 1,
-    "languageCode": "en"
-  },
-  "originalDetectIntentRequest": {
-    "payload": {}
-  },
-  "session": "projects/codelabbikeshop-orig/agent/sessions/a76ac640-3f80-7b38-92b9-8e8ab45c1768"
-};
-
-  makeAppointmentFollowUpResponse(input.queryResult);
-});
-
 /**
  * The Dialogflow fulfillment webhook.
  */
