@@ -11,7 +11,7 @@
     "debug": "~2.6.9",
     "dialogflow": "^0.5.0",
     "dialogflow-fulfillment": "^0.5.0",
-    "ejs": "~2.5.7",
+    "ejs": "~3.1.10",
     "express": "~4.16.0",
     "googleapis": "^45.0.0",
     "http-errors": "~1.6.2",
