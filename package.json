@@ -9,7 +9,7 @@
     "actions-on-google": "^2.2.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
-    "dialogflow": "^0.5.0",
+    "dialogflow": "^4.0.3",
     "dialogflow-fulfillment": "^0.5.0",
     "ejs": "~2.5.7",
     "express": "~4.16.0",
