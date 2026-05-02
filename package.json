@@ -18,7 +18,7 @@
     "moment": "^2.27.0",
     "morgan": "~1.9.0",
     "request": "^2.88.0",
-    "uuid": "^3.3.3",
+    "uuid": "^14.0.0",
     "businessmessages": "~1.0.0"
   },
   "devDependencies": {
