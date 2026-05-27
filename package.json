@@ -22,7 +22,7 @@
     "businessmessages": "~1.0.0"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
+    "eslint": "^10.4.0",
     "eslint-config-google": "^0.9.1"
   }
 }
